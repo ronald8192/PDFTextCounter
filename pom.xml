@@ -4,11 +4,10 @@
 
 	<groupId>com.ronald8192.pdftextreader</groupId>
 	<artifactId>pdftextreader</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>PDFTextReader</name>
-	<url>http://maven.apache.org</url>
 	<build>
 		<defaultGoal>install</defaultGoal>
 		<plugins>
@@ -17,7 +16,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.ronald8192.maven01.App</mainClass>
+							<mainClass>com.ronald8192.pdftextcounter.PDFTextCounter</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -64,4 +63,5 @@
 		</dependency>
 
 	</dependencies>
+	<url>https://github.com/ronald8192/PDFTextCounter</url>
 </project>
