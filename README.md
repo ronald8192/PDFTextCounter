@@ -13,3 +13,6 @@ PDF word count, output to `summary.csv`
 * Start reading every PDF from page 2
 
 `java -jar PDFTextCounter.jar -i pdfTextCounter/pdfs/ -o pdfTextCounter/txt/ -s 2`
+
+---
+I code this for some of the school notes, the program process 11 PDF file (total ~180MB) around 5 seconds. So don't ask me why I not using MapReduce.
